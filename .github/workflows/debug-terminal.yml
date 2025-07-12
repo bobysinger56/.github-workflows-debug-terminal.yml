@@ -5,7 +5,7 @@ on:
 
 jobs:
   debug:
-    runs-on: ubuntu-latest-96-cores
+    runs-on: ubuntu-latest-32-cores
     steps:
       - name: Checkout do código
         uses: actions/checkout@v4
